@@ -1,12 +1,12 @@
 # Data_Engineering_GP
 GP_Trainer materials
-# Data Engineering Learning Journey
+# Data Engineering Teaching Journey
 
-Welcome to my Data Engineering learning repository.
+Welcome to my Data Engineering Teaching repository.
 
 ## About Me
 
-I am currently building my knowledge in:
+I am currently inbuilding knowledge in:
 
 - Data Engineering
 - ETL
