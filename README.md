@@ -39,6 +39,4 @@ Topics covered:
 To build strong practical knowledge in Data Engineering and create real-world data pipelines.
 
 
-🎉 You have just made your first GitHub contribution.
 
-🟢
