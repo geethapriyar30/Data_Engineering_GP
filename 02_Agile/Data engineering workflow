@@ -1,0 +1,78 @@
+
+Detailed Sprint Example
+Day 1
+────────────────────────────
+
+Product Owner
+    ↓
+Explains requirement:
+"Load customer transaction data into Snowflake"
+
+
+Data Engineer
+    ↓
+Creates:
+S3 Bucket
+External Stage
+COPY INTO Process
+
+
+QA Engineer
+    ↓
+Creates:
+Test Scenarios
+Data Validation Rules
+
+
+DevOps Engineer
+    ↓
+Creates:
+Jenkins Pipeline
+Environment Setup
+
+
+Scrum Master
+    ↓
+Tracks blockers
+
+
+────────────────────────────
+
+Day 5
+────────────────────────────
+
+Data Engineer
+    ↓
+Pipeline Development
+
+
+QA Engineer
+    ↓
+Testing incoming data
+
+
+ETL Developer
+    ↓
+Transformation Logic
+
+
+DevOps
+    ↓
+Automated Deployment
+
+
+────────────────────────────
+
+Day 10
+────────────────────────────
+
+All Team Members
+    ↓
+Integration Testing
+
+    ↓
+
+Sprint Demo
+    ↓
+
+Business Feedback

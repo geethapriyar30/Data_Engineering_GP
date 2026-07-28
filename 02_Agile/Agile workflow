@@ -1,0 +1,67 @@
+Agile Team Interaction Flow
+
+                 CUSTOMER
+                    │
+                    ▼
+             PRODUCT OWNER
+                    │
+                    ▼
+          ┌─────────────────┐
+          │  Scrum Master   │
+          └─────────────────┘
+                    │
+                    ▼
+        ┌─────────────────────┐
+        │ Development Team    │
+        │                     │
+        │ Developer           │
+        │ Tester / QA         │
+        │ Data Engineer       │
+        │ DevOps Engineer     │
+        └─────────────────────┘
+                    │
+                    ▼
+             Working Product
+                    │
+                    ▼
+              Customer Feedback
+
+Example: Data Engineering Agile Sprint Flow
+
+Business Requirement
+        │
+        ▼
+"Build Customer Data Pipeline"
+        │
+        ▼
+Product Backlog
+        │
+        ▼
+Sprint Planning
+        │
+        ▼
+Sprint 1
+        │
+        ├── Create AWS S3 Bucket
+        │
+        ├── Load CSV Files
+        │
+        ├── Create Snowflake Stage
+        │
+        └── Test Data Load
+        │
+        ▼
+Sprint Review
+        │
+        ▼
+Business Feedback
+        │
+        ▼
+Sprint 2
+        │
+        ├── Data Cleansing
+        ├── Transformation
+        └── Target Table Creation
+        │
+        ▼
+Final Data Pipeline
