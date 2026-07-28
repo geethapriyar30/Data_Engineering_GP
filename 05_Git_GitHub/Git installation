@@ -1,0 +1,224 @@
+Step 1: Install Git
+
+Go to the official website:
+
+https://git-scm.com/downloads
+
+Download the Windows version and install it.
+
+During installation, you can keep the default settings.
+
+Verify Installation
+
+Open Command Prompt or Git Bash:
+
+git --version
+
+Example output:
+
+git version 2.50.1
+
+Step 2: Install VS Code
+
+Download from:
+
+https://code.visualstudio.com/
+
+Install it with the default options.
+
+Step 3: Install the GitHub Extension (Optional but Helpful)
+
+Open VS Code.
+
+Go to:
+
+Extensions
+
+Search:
+
+GitHub Pull Requests
+
+Install it.
+
+This isn't required for basic Git, but it's useful later.
+
+Step 4: Configure Git (Only Once)
+
+Open Git Bash.
+
+Run:
+
+git config --global user.name "Geetha Priya"
+
+Then:
+
+git config --global user.email "YOUR_GITHUB_EMAIL"
+
+Use the same email you used for your GitHub account.
+
+Check the configuration:
+
+git config --list
+
+You should see:
+
+user.name=Geetha Priya
+user.email=your@email.com
+Step 5: Clone Your Repository
+
+Open GitHub.
+
+Go to:
+
+Data_Engineering_GP
+
+Click:
+
+Code
+
+Copy the HTTPS URL.
+
+It will look similar to:
+
+https://github.com/geethapriyar30/Data_Engineering_GP.git
+
+Open Git Bash:
+
+Go to Documents:
+
+cd Documents
+
+Clone:
+
+git clone https://github.com/geethapriyar30/Data_Engineering_GP.git
+
+Git downloads your repository.
+
+Step 6: Open the Repository in VS Code
+
+Go inside:
+
+cd Data_Engineering_GP
+
+Open VS Code:
+
+code .
+
+If this doesn't work the first time, open VS Code manually and use:
+
+File → Open Folder
+
+Select:
+
+Data_Engineering_GP
+Step 7: Your Project in VS Code
+
+You'll see something like:
+
+📁 Data_Engineering_GP
+
+    README.md
+
+Now create folders:
+
+01_SDLC
+
+02_Agile
+
+03_CI_CD
+
+04_Jenkins_DevOps
+
+05_Git_GitHub
+Step 8: Create Your First File
+
+Inside:
+
+05_Git_GitHub
+
+Create:
+
+README.md
+
+Write:
+
+# Git and GitHub
+
+## What is Git?
+
+Git is a distributed version control system.
+
+## What is GitHub?
+
+GitHub hosts Git repositories online.
+
+Save using:
+
+Ctrl + S
+Step 9: Check Git Status
+
+Open the integrated terminal:
+
+Terminal → New Terminal
+
+Run:
+
+git status
+
+Example:
+
+Untracked files:
+
+05_Git_GitHub/
+
+Git has detected your new folder.
+
+Step 10: Stage the Changes
+git add .
+
+Check:
+
+git status
+
+Now you'll see:
+
+Changes to be committed
+Step 11: Commit
+git commit -m "Added Git and GitHub notes"
+
+Git saves a checkpoint.
+
+Step 12: Push to GitHub
+git push
+
+Refresh GitHub.
+
+🎉 Your new folder appears online.
+
+How VS Code Helps
+
+Look at the left sidebar.
+
+You'll see the Source Control icon (looks like a branching graph).
+
+When you modify a file:
+
+README.md
+
+VS Code marks it with:
+
+M
+
+(M = Modified)
+
+Click Source Control.
+
+You can:
+
+View changed files
+Stage changes
+Enter a commit message
+Commit
+Sync/Push changes
+
+You don't always need to type commands manually.

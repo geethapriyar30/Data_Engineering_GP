@@ -1,0 +1,19 @@
+VS Code
+     ↓
+Git
+     ↓
+Commit
+     ↓
+Push
+     ↓
+GitHub
+
+
+
+This approach is used because developers need to:
+
+Work offline
+Write code efficiently
+Test before uploading
+Handle large projects
+Collaborate through branches and pull requests

@@ -1,0 +1,67 @@
+What is SDLC?
+SDLC = Software Development Life Cycle
+It is a structured process used to develop software.
+Requirement
+    ↓
+Analysis
+    ↓
+Design
+    ↓
+Development
+    ↓
+Testing
+    ↓
+Deployment
+    ↓
+Maintenance
+Example
+Suppose a company wants a Customer Sales Dashboard.
+1. Requirement
+"We need to see daily sales by region."
+2. Analysis
+The team identifies:
+Required data 
+Source systems 
+Business rules 
+Expected output 
+3. Design
+The team decides:
+Oracle
+  ↓
+AWS S3
+  ↓
+Snowflake
+  ↓
+Power BI
+4. Development
+Developers and Data Engineers create:
+SQL 
+Python scripts 
+ETL pipelines 
+Tables 
+5. Testing
+The QA team checks:
+Data accuracy 
+Duplicate records 
+Missing records 
+Transformation logic 
+6. Deployment
+The solution is moved to production.
+7. Maintenance
+The system is monitored and updated.
+
+Data Engineer's Role in SDLC
+A Data Engineer may be involved in:
+Requirement Analysis
+        ↓
+Source Analysis
+        ↓
+Data Model Design
+        ↓
+Pipeline Development
+        ↓
+Data Testing
+        ↓
+Deployment
+        ↓
+Monitoring
