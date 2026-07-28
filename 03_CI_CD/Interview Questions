@@ -1,0 +1,65 @@
+What is CI/CD?
+
+
+What is the difference between Continuous Delivery and Continuous Deployment?
+
+What happens in a CI pipeline?
+
+A CI pipeline automatically starts when a developer pushes code to the repository. It checks out the latest code, builds the application, performs code quality analysis, runs automated tests, optionally performs security scans, packages the application into an artifact, stores the artifact, and reports the build status. The objective is to detect integration issues early and ensure the code is always in a deployable state.
+
+Why is Git important in CI/CD?
+
+Git is important in CI/CD (Continuous Integration/Continuous Deployment) because it acts as the central version control system where all source code is stored and managed. Every change made by developers is tracked, and CI/CD pipelines use Git as the starting point for automation.
+
+What is Jenkins? -- automation tool for CI/CD
+
+Jenkins is an open-source automation server used to automate software development tasks such as building, testing, and deploying applications. It is one of the most widely used CI/CD tools.
+
+
+What is an artifact?
+An artifact is the final packaged output created after the source code is built successfully. It is the file that is stored and later deployed to different environments (Development, QA, Production).
+
+Examples of Artifacts
+Application Type	Artifact
+Java Application	.jar file
+Java Web Application	.war file
+Python Application	.whl package or ZIP
+.NET Application	.dll or .exe
+Docker Application	Docker Image
+Frontend (React/Angular)	Compiled HTML, CSS, JavaScript files
+Data Engineering	Packaged ETL scripts, SQL scripts, or Docker image
+
+Where are Artifacts Stored?
+
+Artifacts are usually stored in an artifact repository, such as:
+Nexus Repository
+JFrog Artifactory
+Docker Hub (for Docker images)
+Cloud storage (AWS S3, Azure Artifacts, etc.)
+
+This allows the same tested artifact to be deployed consistently across environments.
+
+What is a build?
+
+A build is the process of converting source code into a deployable application. It typically includes compiling the code, resolving dependencies, running tests, and packaging the application. The result of a successful build is an artifact, which is then deployed to different environments.
+
+Where are Artifacts Stored?
+
+Artifacts are usually stored in an artifact repository, such as:
+
+Nexus Repository
+JFrog Artifactory
+Docker Hub (for Docker images)
+Cloud storage (AWS S3, Azure Artifacts, etc.)
+
+This allows the same tested artifact to be deployed consistently across environments.
+
+How can CI/CD be used in data engineering?
+
+
+**"CI/CD is an automated software development practice where Continuous Integration (CI) automatically builds and tests code whenever developers commit changes. Continuous Delivery (CD) prepares the application for release, while Continuous Deployment can automatically release it to production after all checks pass. In data engineering, CI/CD automates the testing and deployment of SQL scripts, ETL pipelines, and Snowflake database objects, reducing manual effort and improving reliability."
+
+What is the role of SonarQube?
+
+
+SonarQube is a code quality and security analysis tool used in a CI/CD pipeline to automatically inspect source code for bugs, vulnerabilities, and maintainability issues before the code is deployed.
