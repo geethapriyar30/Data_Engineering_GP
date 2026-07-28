@@ -1,0 +1,153 @@
+If you're referring to the letter U that appears beside a file in VS Code's Explorer or Source Control, it means:
+
+U = Untracked
+
+Git has found a new file that isn't being tracked yet.
+
+For example:
+
+05_Git_GitHub/
+    README.md      U
+
+This means:
+
+✅ The file exists on your computer.
+✅ Git sees it.
+❌ But Git is not yet tracking it.
+❌ It has not been committed.
+How to remove the U
+
+You need to add the file to Git and commit it.
+
+Step 1: Stage the file
+git add .
+
+or
+
+git add README.md
+Step 2: Commit
+git commit -m "Added GitHub README"
+Step 3: Push
+git push
+
+After the commit, the U disappears because Git is now tracking the file.
+
+Other Git Status Indicators in VS Code
+Symbol	Meaning
+U	Untracked (new file)
+M	Modified (tracked file has changes)
+A	Added (staged for commit)
+D	Deleted
+R	Renamed
+C	Conflict (merge conflict)
+Example
+
+Suppose you create a new file:
+
+01_SDLC/
+    Notes.md
+
+VS Code shows:
+
+U Notes.md
+
+After running:
+
+git add .
+git commit -m "Added SDLC notes"
+
+The U disappears because the file is now part of your Git history.
+
+A simple way to remember
+
+Think of Git as a teacher taking attendance:
+
+U = "I found a new student, but they're not on the attendance list yet."
+git add = Add the student to the attendance list.
+git commit = Save today's attendance permanently.
+git push = Send the updated attendance to GitHub.
+
+If you have any other letters (like M, A, or D) showing in VS Code, let me know or share a screenshot, and I'll explain what each one means.
+
+ok why the git commands in local computer terminal is required ?
+
+This is probably the most important Git question you'll ask. Once you understand this, the entire purpose of Git becomes clear.
+
+The short answer is:
+
+GitHub stores your project online. Git (the commands in your terminal) manages your work on your computer and tells GitHub what to update.
+
+Think of it like writing a document.
+
+GitHub = Google Drive (stores your files online)
+VS Code = Microsoft Word (where you write)
+Git = The synchronization tool that tracks every change and uploads it safely
+Why can't I just use GitHub?
+
+You can for small edits.
+
+For example, if you're only writing notes:
+
+README.md
+MCQs.md
+Assignments.md
+
+Editing directly on GitHub is perfectly fine.
+
+But imagine you're building a real Data Engineering project.
+
+Customer_ETL_Project
+│
+├── extract.py
+├── transform.py
+├── load.py
+├── config.py
+├── requirements.txt
+└── README.md
+
+Editing all these files one by one in a browser would be slow and difficult.
+
+What does Git do on your computer?
+
+Suppose you change three files.
+
+transform.py
+config.py
+README.md
+
+Git immediately knows:
+
+Which files changed
+Which lines changed
+Who changed them
+When they changed
+
+That's why we use:
+
+git status
+
+It tells you exactly what's different.
+
+Why do we need commands?
+
+Imagine you're writing an assignment.
+
+Without Git
+Assignment.docx
+Assignment_Final.docx
+Assignment_Final2.docx
+Assignment_Final3.docx
+Assignment_ReallyFinal.docx
+
+😄 This gets messy very quickly.
+
+With Git
+Version 1
+      ↓
+Version 2
+      ↓
+Version 3
+      ↓
+Version 4
+
+Every version is stored as a commit.

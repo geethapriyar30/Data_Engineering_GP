@@ -1,0 +1,62 @@
+As a Data Engineer, these are your daily essentials:
+
+git status
+git add .
+git commit -m "Meaningful message"
+git push
+git pull
+git branch
+git checkout -b feature-name
+git merge feature-name
+git log --oneline
+
+🎯 Typical Daily Workflow
+Start Work
+    │
+    ▼
+git pull
+    │
+    ▼
+Edit files in VS Code
+    │
+    ▼
+git status
+    │
+    ▼
+git add .
+    │
+    ▼
+git commit -m "Added SDLC notes"
+    │
+    ▼
+git push
+
+📌 Commands You Should Master First
+
+These 10 commands are the foundation:
+
+git --version
+git clone
+git status
+git add .
+git commit -m "message"
+git push
+git pull
+git branch
+git checkout -b
+git log --oneline
+
+📚 Commands to Learn Next
+
+Once you're comfortable with the basics, move on to:
+
+git merge
+git fetch
+git stash
+git restore
+git diff
+git tag
+git reset
+git clean
+
+These are commonly used in collaborative development.

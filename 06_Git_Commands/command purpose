@@ -1,0 +1,167 @@
+1. Check Git Installation
+Command	Purpose
+git --version	Check Git version
+git --help	Display Git help
+git help <command>	Help for a specific command
+
+Example
+
+git --version
+
+2. Git Configuration (One-Time Setup)
+Command	Purpose
+git config --global user.name "Your Name"	Set username
+git config --global user.email "email@example.com"	Set email
+git config --list	Display Git configuration
+
+Example
+
+git config --global user.name "Geetha Priya"
+git config --global user.email "yourmail@gmail.com"
+
+3. Create or Clone Repository
+Command	Purpose
+git init	Create a new Git repository
+git clone <URL>	Copy a repository from GitHub
+
+Example
+
+git init
+
+or
+
+git clone https://github.com/geethapriyar30/Data_Engineering_GP.git
+
+4. Check Repository Status
+Command	Purpose
+git status	Show changed files
+git log	Show commit history
+git log --oneline	Compact commit history
+
+Example
+
+git status
+
+
+5. Add Files (Staging)
+Command	Purpose
+git add file.txt	Add one file
+git add .	Add all files
+git add *.py	Add all Python files
+
+Example
+
+git add .
+
+6. Commit Changes
+Command	Purpose
+git commit -m "message"	Save a version
+git commit -am "message"	Add modified tracked files and commit
+
+Example
+
+git commit -m "Added Git notes"
+
+
+7. Connect to GitHub
+Command	Purpose
+git remote add origin URL	Connect local repo to GitHub
+git remote -v	Show remote repository
+git remote remove origin	Remove remote
+
+Example
+
+git remote add origin https://github.com/geethapriyar30/Data_Engineering_GP.git
+
+8. Upload & Download
+Command	Purpose
+git push	Upload changes
+git push origin main	Push to main branch
+git pull	Download latest changes
+git fetch	Fetch updates without merging
+
+Example
+
+git push
+
+9. Branching
+Command	Purpose
+git branch	List branches
+git branch new-feature	Create branch
+git checkout new-feature	Switch branch
+git checkout -b new-feature	Create and switch
+git switch new-feature	Switch branch (modern command)
+
+Example
+
+git checkout -b python-basics
+
+10. Merge Branches
+Command	Purpose
+git merge branch-name	Merge a branch
+git merge --abort	Cancel merge
+
+Example
+
+git merge python-basics
+11. Delete Branches
+Command	Purpose
+git branch -d branch-name	Delete local branch
+git branch -D branch-name	Force delete
+git push origin --delete branch-name	Delete remote branch
+
+12. Undo Changes
+Command	Purpose
+git restore file.txt	Undo file changes
+git restore --staged file.txt	Unstage a file
+git reset HEAD file.txt	Remove from staging
+git reset --hard	Discard all local changes (⚠️ use carefully)
+
+13. View Differences
+Command	Purpose
+git diff	Show file differences
+git diff --staged	Compare staged changes
+
+14. Stash (Temporary Save)
+Command	Purpose
+git stash	Save unfinished work temporarily
+git stash list	Show stashes
+git stash pop	Restore latest stash
+
+Useful when you need to switch tasks without committing incomplete work.
+
+15. Tags
+Command	Purpose
+git tag	List tags
+git tag v1.0	Create tag
+git push origin v1.0	Push tag
+
+16. Repository Information
+Command	Purpose
+git remote -v	Show remotes
+git branch -a	Show all branches
+git show	Show latest commit details
+
+17. Useful History Commands
+git log
+git log --oneline
+git log --graph
+git log --all
+
+18. Clone Specific Branch
+git clone -b development <repository-url>
+
+19. Rename Branch
+git branch -m old-name new-name
+
+20. Remove Untracked Files
+
+Preview first:
+
+git clean -n
+
+Delete:
+
+git clean -f
+
+⚠️ This permanently deletes untracked files.

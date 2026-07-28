@@ -17,3 +17,44 @@ Write code efficiently
 Test before uploading
 Handle large projects
 Collaborate through branches and pull requests
+
+Method 2: Using VS Code + Git
+
+Workflow:
+
+VS Code
+     ↓
+Write Code
+     ↓
+Save
+     ↓
+Git
+     ↓
+Push
+     ↓
+GitHub
+
+
+Advantages
+
+✅ Professional development environment
+
+✅ Syntax highlighting
+
+✅ Auto-completion (IntelliSense)
+
+✅ Debugging
+
+✅ Terminal built in
+
+✅ Extensions
+
+✅ Easy project navigation
+
+Best for
+Python
+SQL
+Snowflake scripts
+ETL pipelines
+Large documentation
+Real-world projects
