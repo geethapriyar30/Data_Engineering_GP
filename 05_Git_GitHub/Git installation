@@ -222,3 +222,44 @@ Commit
 Sync/Push changes
 
 You don't always need to type commands manually.
+
+GitHub = Google Drive (stores your files online)
+VS Code = Microsoft Word (where you write)
+Git = The synchronization tool that tracks every change and uploads it safely
+
+git status
+
+It tells you exactly what's different.
+
+Because they let you:
+
+✅ Track every change
+✅ Save versions (commits)
+✅ Restore previous versions
+✅ Work offline
+✅ Collaborate safely
+✅ Upload changes to GitHub
+✅ Follow the same workflow used by software and data engineering teams
+
+GitHub doesn't replace Git—GitHub is a service that uses Git repositories.
+
+When should you use GitHub only?
+
+Use the GitHub website for:
+
+Quick README edits
+Correcting typos
+Uploading a screenshot
+Small documentation updates
+When should you use Git commands?
+
+Use Git + VS Code for:
+
+Python programs
+SQL scripts
+Snowflake objects
+ETL pipelines
+Projects with many files
+Team development
+
+This is the workflow you'll see in almost every professional development environment.

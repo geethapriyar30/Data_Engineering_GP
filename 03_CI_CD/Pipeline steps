@@ -1,0 +1,44 @@
+
+Typical CI Pipeline Steps
+      ↓
+Checkout
+      ↓
+Build
+      ↓
+Unit Test
+      ↓
+Code Quality Scan
+      ↓
+Package
+      ↓
+Store Artifact
+
+Typical CD Pipeline
+
+Artifact
+     │
+     ▼
+Deploy to Development
+     │
+     ▼
+Integration Testing
+     │
+     ▼
+Deploy to QA
+     │
+     ▼
+UAT
+     │
+     ▼
+Deploy to Production
+
+
+Advantages of CI/CD
+Faster software releases
+Reduced manual effort
+Early bug detection
+Consistent deployments
+Better collaboration
+Improved code quality
+Lower deployment risk
+Faster recovery from failures
